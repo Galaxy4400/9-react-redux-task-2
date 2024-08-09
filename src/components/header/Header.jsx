@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import { ORDER_TYPES } from '../../constants';
 import { useDispatch, useSelector } from 'react-redux';
 import { getTasks, setOrderColumn } from '../../actions';
