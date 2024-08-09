@@ -4,9 +4,9 @@ import { useDispatch } from 'react-redux';
 import { getTasks, setSearchingStatus, setSearchTerm as setSearchTermAction} from '../actions';
 
 export const useSearchTasks = () => {
-	const [searchTerm, setSearchTerm] = useState('');
-
 	const dispatch = useDispatch();
+
+	const [searchTerm, setSearchTerm] = useState('');
 
 	const debouncedSearchTerm = useDebounce(searchTerm);
 
