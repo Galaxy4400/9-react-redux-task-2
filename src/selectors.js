@@ -1,7 +1,3 @@
-export const selectApp = (state) => state.app;
-
-export const selectStatus = (state) => state.status;
-
 export const selectOrderColumn = (state) => state.app.orderColumn;
 
 export const selectTasks = (state) => state.app.tasks;
